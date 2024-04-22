@@ -11,10 +11,8 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from langchain.prompts import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
-load_dotenv()
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+GOOGLE_API_KEY= st.secrets['GOOGLE_API_KEY']
 
 
 
