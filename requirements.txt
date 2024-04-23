@@ -1,4 +1,4 @@
-langchain_openai
+
 langchain_core
 python_dotenv
 langchain_community
@@ -7,6 +7,6 @@ streamlit
 langchain_google_genai
 google-generativeai
 chromadb
-faiss-cpufaiss-cpu==1.7.4
+faiss-cpu==1.7.4
 PyPDF2
 langchain
