@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from langchain.prompts import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
 
-GOOGLE_API_KEY= st.secrets['GOOGLE_API_KEY']
+GOOGLE_API_KEY= st.secrets['AIzaSyB4kSlZExXAcfjEnmh1aCcFz37zt3DjWxw']
 
 
 
